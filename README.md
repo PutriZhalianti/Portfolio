@@ -1,4 +1,4 @@
-# Portofolio Data Science – Putri Yahnda
+# Portofolio – Putri Yahnda Alha Zhalianti
 
 Selamat datang di portofolio saya! Di sini saya membagikan beberapa proyek yang saya kerjakan dalam bidang Artificial Intelligence, Machine Learning, dan Image Processing.
 
