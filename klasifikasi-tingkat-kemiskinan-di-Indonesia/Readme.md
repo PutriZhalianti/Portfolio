@@ -7,14 +7,28 @@ Proyek ini bertujuan untuk mengklasifikasikan status kemiskinan rumah tangga men
 ## 🛠️ Teknologi
 - Python
 - scikit-learn
-- pandas, matplotlib
-- Goofle Colab
+- Smote
+- pandas, matplotlib, seaborn
+- Google Colab
 
 
 ## 🔍 Langkah Kerja
-- Preprocessing: handling missing values, encoding
-- Model building: Linear Regression dan Decision Tree
-- Evaluasi model: akurasi, precision, recall, confusion matrix
+- Pengambilan Dataset<br>
+  Saya mengambil dataset dari platform kaggle milik Ermila
+- Data Understanding<br>
+  Kumpulan data ini berisi 13 atribut. Atribut “Klasifikasi Kemiskinan” mengacu pada keadaan miskin atau tidak miskin. Bernilai bilangan bulat 0 = tidak miskin dan 1 = miskin.
+- EDA dan Preprocessing<br>
+  - Missing values: melakukan pemeriksaan apakah ada nilai yang hilang dalam dataset. Berdasarkan hasil pemeriksaan tidak ditemukan nilai yang hilang dalam dataset, sehingga dapat dipastikan data lengkap dan siap digunakan.
+  -  Data duplikat: melihat apakah ada baris data yang terduplikasi. Setelah dilakukan pemeriksaan, tidak ditemukan adanya data duplikat dalam dataset ini, sehingga proses ini tidak memerlukan tindakan tambahan.
+  - Encoding: Beberapa kolom dalam dataset memiliki tipe data bertipe objek.  Tipe data ini tidak cocok untuk analisis numerik, sehingga diubah menjadi float dan integer agar dapat digunakan dalam perhitungan atau pemodelan.
+- Balancing Data<br>
+  Dataset tingkat kemiskinan ini memiliki label dengan distribusi kelas yang tidak seimbang, di mana terdapat kelas mayoritas dan kelas minoritas. Ketidakseimbangan ini dapat menyebabkan hasil klasifikasi menjadi kurang optimal. Untuk mengatasi masalah tersebut, penelitian ini menerapkan metode Synthetic Minority Over-Sampling Technique (SMOTE).
+  Berikut adalah visualisasi dari proses hasil SMOTE
+  ![Visualisasi Balancing Data](https://github.com/PutriZhalianti/Portfolio/blob/main/Gambar/Balance-Data_KKI.png?raw=true)
+- Model building<br>
+  Linear Regression dan Decision Tree
+- Evaluasi model<br>
+  akurasi, precision, recall, confusion matrix
 - Perbandingan performa kedua model
 
 
@@ -24,15 +38,20 @@ Proyek ini bertujuan untuk mengklasifikasikan status kemiskinan rumah tangga men
 - Decision Tree tidak hanya menawarkan akurasi yang lebih tinggi dibandingkan Logistic Regression, tetapi juga mampu menangani ketidakseimbangan kelas dengan efektif. Dengan precision dan recall yang lebih tinggi pada kelas minoritas.
 - Decision Tree membuktikan dirinya sebagai alat prediktif yang andal untuk diterapkan dalam kasus serupa.
 
-📈 Visualisasi Hasil:  
-![Visualisasi Balancing Data](./Gambar/Balance-Data_KKI.png)
+📈 Visualisasi Hasil: 
+- Hasil Evaluasi dari kedua Model
+  - Confusion Matrix
+![Confusion Matrix](https://github.com/PutriZhalianti/Portfolio/blob/main/Gambar/Confusion-Matrix-KKI.png?raw=true)
+  - Matrix Evaluasi Decision Tree
+    ![Matrix Evaluasi Decision Tree](https://github.com/PutriZhalianti/Portfolio/blob/main/Gambar/DecissionTree.png?raw=true)
+  - Matrix Evaluasi Logistic Regression
+    ![Matrix Evaluasi Logistic Regression](https://github.com/PutriZhalianti/Portfolio/blob/main/Gambar/LogisticRegression.png?raw=true)
 
 
 ## 🔗 Akses
-- [Notebook](./klasifikasi-kemiskinan.ipynb)
-- [Link Dataset (jika ada)](https://kaggle.com/...)
+- [Notebook](./KlasifikasiKemiskinan_Putri.ipynb)
+- [Link Dataset](https://www.kaggle.com/datasets/ermila/klasifikasi-tingkat-kemiskinan-di-indonesia)
 
----
 
 ## 📌 Insight
-Model Decision Tree sangat cocok untuk klasifikasi berbasis data demografis dan sosial. Proyek ini dapat dikembangkan lebih lanjut untuk rekomendasi kebijakan atau targeting bantuan sosial.
+Model Decision Tree sangat cocok untuk klasifikasi berbasis data demografis dan sosial. Decision Tree membuktikan dirinya sebagai alat prediktif yang andal untuk diterapkan dalam kasus serupa. Proyek ini dapat dikembangkan lebih lanjut untuk rekomendasi kebijakan atau targeting bantuan sosial.
