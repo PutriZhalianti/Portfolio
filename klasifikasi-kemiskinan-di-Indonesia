@@ -25,9 +25,8 @@ Proyek ini bertujuan untuk mengklasifikasikan status kemiskinan rumah tangga men
 - Decision Tree membuktikan dirinya sebagai alat prediktif yang andal untuk diterapkan dalam kasus serupa.
 
 📈 Visualisasi Hasil:  
-![Visualisasi Balancing Data](./kemiskinan_chart.png)
+![Visualisasi Balancing Data](./Gambar/Balance-Data_KKI.png)
 
----
 
 ## 🔗 Akses
 - [Notebook](./klasifikasi-kemiskinan.ipynb)
