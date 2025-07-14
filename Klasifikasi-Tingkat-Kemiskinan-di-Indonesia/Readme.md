@@ -60,3 +60,9 @@ Model Decision Tree sangat cocok untuk klasifikasi berbasis data demografis dan 
 Putri Yahnda Alha Zhalianti  
 Mahasiswa Informatika | AI & Data Scientist Enthusiast  
 📫 putriyahnda.zhalianti@gmail.com | 🌐 [LinkedIn](https://www.linkedin.com/in/putri-yahnda-alha-zhalianti/)  
+
+
+💡 Proyek ini dikerjakan secara kolaboratif dengan anggota tim:
+1. Putri Yahnda Alha Zhalianti
+2. Puspitasari Anisa Putri
+3. Amalia Fitria Nurazizah
