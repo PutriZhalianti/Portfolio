@@ -22,7 +22,7 @@ Proyek ini bertujuan untuk mengklasifikasikan status kemiskinan rumah tangga men
   -  Data duplikat: melihat apakah ada baris data yang terduplikasi. Setelah dilakukan pemeriksaan, tidak ditemukan adanya data duplikat dalam dataset ini, sehingga proses ini tidak memerlukan tindakan tambahan.
   - Encoding: Beberapa kolom dalam dataset memiliki tipe data bertipe objek.  Tipe data ini tidak cocok untuk analisis numerik, sehingga diubah menjadi float dan integer agar dapat digunakan dalam perhitungan atau pemodelan.
 - Balancing Data<br>
-  Dataset tingkat kemiskinan ini memiliki label dengan distribusi kelas yang tidak seimbang, di mana terdapat kelas mayoritas dan kelas minoritas. Ketidakseimbangan ini dapat menyebabkan hasil klasifikasi menjadi kurang optimal. Untuk mengatasi masalah tersebut, penelitian ini menerapkan metode Synthetic Minority Over-Sampling Technique (SMOTE).
+  Dataset tingkat kemiskinan ini memiliki label dengan distribusi kelas yang tidak seimbang, di mana terdapat kelas mayoritas dan kelas minoritas. Ketidakseimbangan ini dapat menyebabkan hasil klasifikasi menjadi kurang optimal. Untuk mengatasi masalah tersebut, penelitian ini menerapkan metode Synthetic Minority Over-Sampling Technique (SMOTE).<br>
   Berikut adalah visualisasi dari proses hasil SMOTE
   ![Visualisasi Balancing Data](https://github.com/PutriZhalianti/Portfolio/blob/main/Gambar/Balance-Data_KKI.png?raw=true)
 - Model building<br>
@@ -33,18 +33,18 @@ Proyek ini bertujuan untuk mengklasifikasikan status kemiskinan rumah tangga men
 
 
 ## 📊 Hasil
-- Decision Tree memiliki akurasi lebih tinggi (96%) dibanding Linear Regression (92%)
+- Decision Tree memiliki akurasi lebih tinggi (92%) dibanding Linear Regression (90%)
 - Decision Tree lebih mampu menangani pola pada data sosial ekonomi
 - Decision Tree tidak hanya menawarkan akurasi yang lebih tinggi dibandingkan Logistic Regression, tetapi juga mampu menangani ketidakseimbangan kelas dengan efektif. Dengan precision dan recall yang lebih tinggi pada kelas minoritas.
 - Decision Tree membuktikan dirinya sebagai alat prediktif yang andal untuk diterapkan dalam kasus serupa.
 
 📈 Visualisasi Hasil: 
 - Hasil Evaluasi dari kedua Model
-  - Confusion Matrix
+  - Confusion Matrix<br>
 ![Confusion Matrix](https://github.com/PutriZhalianti/Portfolio/blob/main/Gambar/Confusion-Matrix-KKI.png?raw=true)
-  - Matrix Evaluasi Decision Tree
+  - Matrix Evaluasi Decision Tree<br>
     ![Matrix Evaluasi Decision Tree](https://github.com/PutriZhalianti/Portfolio/blob/main/Gambar/DecissionTree.png?raw=true)
-  - Matrix Evaluasi Logistic Regression
+  - Matrix Evaluasi Logistic Regression<br>
     ![Matrix Evaluasi Logistic Regression](https://github.com/PutriZhalianti/Portfolio/blob/main/Gambar/LogisticRegression.png?raw=true)
 
 
