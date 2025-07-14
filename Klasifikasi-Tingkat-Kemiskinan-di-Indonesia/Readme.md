@@ -55,3 +55,8 @@ Proyek ini bertujuan untuk mengklasifikasikan status kemiskinan rumah tangga men
 
 ## 📌 Insight
 Model Decision Tree sangat cocok untuk klasifikasi berbasis data demografis dan sosial. Decision Tree membuktikan dirinya sebagai alat prediktif yang andal untuk diterapkan dalam kasus serupa. Proyek ini dapat dikembangkan lebih lanjut untuk rekomendasi kebijakan atau targeting bantuan sosial.
+
+## 👩‍💻 Tentang Saya
+Putri Yahnda Alha Zhalianti  
+Mahasiswa Informatika | AI & Data Scientist Enthusiast  
+📫 putriyahnda.zhalianti@gmail.com | 🌐 [LinkedIn](https://www.linkedin.com/in/putri-yahnda-alha-zhalianti/)  
