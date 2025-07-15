@@ -23,7 +23,7 @@ Dengan menggunakan teknik ekstraksi fitur dari model VGG16 dan pelatihan ulang p
 
 2. **Persiapan Dataset**
    - Dataset: CK+ (Cohn-Kanade Extended) versi 48x48 piksel grayscale
-   - Karena dataset CK+ kurang bervariasi, saya menambahkan beberapa gambar dari dataset **FER2013**
+   - Karena dataset CK+ kurang bervariasi, saya menambahkan beberapa gambar dari dataset FER2013
    - Mengelompokkan gambar berdasarkan label emosi
    - Melakukan pengecekan distribusi kelas dan visualisasi sampel
 
@@ -60,21 +60,12 @@ Dengan menggunakan teknik ekstraksi fitur dari model VGG16 dan pelatihan ulang p
 🖼️ Contoh Hasil Prediksi:  
 ![Prediksi](https://github.com/PutriZhalianti/Portfolio/blob/main/Gambar/HasilPrediksiEmosi.png)
 
----
-
-## 🚀 Demo Aplikasi
-Model ini dapat dideploy menggunakan Streamlit sebagai antarmuka sederhana bagi pengguna untuk mengunggah gambar dan mendapatkan prediksi ekspresi wajah secara langsung.
-
-🔗 [Streamlit Demo (opsional link)](https://putriyahnda-emosi.streamlit.app)
-
----
 
 ## 📂 Notebook
-- [Notebook](./face-emotion-detection.ipynb)
+- [Notebook](./face_emotion_detection.ipynb)
 
 
 ## 👩‍💻 Tentang Saya
 Putri Yahnda Alha Zhalianti  
 Mahasiswa Informatika | AI & Machine Learning Enthusiast  
 📫 palhazhalianti@gmail.com | 🌐 [LinkedIn](https://linkedin.com/in/putriyahnda)
-
